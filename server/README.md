@@ -1,6 +1,11 @@
-# NLW Pocket: JavaScript (back-end Node.js)
+Rodar o docker composer
+docker compose up -d
 
-Esse repositório contém o código desenvolvido durante o evento "NLW Pocket: JavaScript" da Rocketseat.
+Criar migration
+npx dizzle-kit generate
 
+Rodar migration
+npx drizzle-kit migrate
 
-
+Abrir studio
+npx drizzle-kit studio
